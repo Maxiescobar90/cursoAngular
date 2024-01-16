@@ -1,4 +1,5 @@
 
 <router-outlet/>
 
-<app-dashboard/>
+<div [ngStyle]="{color: condition ? 'blue':'red'}">Style</div>
+<div [ngClass]="condition ? 'green': 'red'" >class</div>

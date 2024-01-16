@@ -17,11 +17,7 @@ export class DashboardComponent {
     this.text = "dashboard text change"
   }
 
-  /*constructor(cd: ChangeDetectorRef){
-    setTimeout(()=>{
-      this.text = "dashboard text changed";
-      cd.detectChanges();
-    },5000)*/
+
 
   }
 
